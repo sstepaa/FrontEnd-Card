@@ -16,43 +16,40 @@
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  
-  <section class="conteiner">
-    <div class="conteiner__img">
-      
-    </div>
-      <article class="conteiner__text">
-      
-        <div class="conteiner__title">
+  <main class="background"><!-- --------------Etiqueta contenedora del fondo ¡-->
+
+    <section class="card"><!-- --------------Etiqueta que contiene toda la tarjeta-->
+      <header class="card__img"><!----cabecera que tiene la imagen de arriba de la tarjeta-->
+        <img src="./images/illustration-hero.svg" alt="imagen de musica">
+      </header>
+
+      <div class="card__text"> <!--Contenedor de todo el texto de abajo de la imagen-->
+        <div class="text__header">
           <h1>Order Summary</h1>
-          <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-          device anywhere you like!</p>
-        </div>
-      
-      <div class="conteiner__banner">
-        
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#DFE6FB"/><path fill="#717FA6" fill-rule="nonzero" d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"/></g></svg>
-        <div class="banner__title">
-          <h2>Annual Plan</h2>
-          <h3>$59.99/year</h3>
-       
+          <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
         </div>
         
-        
-        <a href="#">Change</a>
-      </div>
-    <footer class="conteiner__footer">
-      <div class="conteiner__bottom">
-        <a href="#">Proceed to Payment</a>
-      </div>
+        <div class="text__plan">
+          <img src="./images/icon-music.svg" alt="Icono de nota musical">
+          
+          <div class="text__plan__content">
+            <p><span class="plan__title">Annual Plan</span></p>
+            <p><span class="plan__subtitle">$59.99/year</span></p>
+          </div>
+          <a href="#">Change</a>
+        </div>
 
-      <div class="conteiner__bottom conteiner__bottom--gris">
-        <a href="#" class="btn__gris">Cancel Order</a>
-      </div>
-    </footer>
+        <div class="btn">
+          <p>Proceed to payment</p>
+        </div>
 
-    </article>    
-  </section>
+        <div class="btn btn--white">
+          <p>Cancel Order</p>
+        </div>
+      </div>
+    </section>
+  </main>
+ 
 
   
   <div class="attribution">
